@@ -81,32 +81,23 @@ const Index = () => {
 
   const updates = [
     {
-      version: 'v2.4.1',
-      date: '10 декабря 2024',
+      version: 'v1.1',
+      date: '11 декабря 2024',
       changes: [
-        'Добавлен новый модуль Scaffold',
         'Улучшена производительность ESP',
-        'Исправлены краши на версии 1.20.4',
-        'Обновлен интерфейс меню'
-      ]
-    },
-    {
-      version: 'v2.4.0',
-      date: '28 ноября 2024',
-      changes: [
-        'Поддержка Minecraft 1.20.4',
-        'Новый режим Rage для KillAura',
-        'Добавлен модуль Auto-Totem',
-        'Оптимизация кода'
-      ]
-    },
-    {
-      version: 'v2.3.9',
-      date: '15 ноября 2024',
-      changes: [
-        'Исправлены баги с Fly на серверах',
-        'Улучшен обход античита',
+        'Исправлены краши на версии 1.16.5',
+        'Обновлен интерфейс меню',
         'Добавлены новые настройки Speed'
+      ]
+    },
+    {
+      version: 'v1.0',
+      date: '1 декабря 2024',
+      changes: [
+        'Первый релиз DenoV',
+        'Поддержка Minecraft 1.16.5',
+        'Базовые модули: KillAura, ESP, Fly, X-Ray',
+        'Поддержка Forge и Fabric'
       ]
     }
   ];
@@ -143,7 +134,7 @@ const Index = () => {
           </div>
 
           <Badge variant="outline" className="border-primary text-primary">
-            v2.4.1
+            v1.1
           </Badge>
         </div>
       </nav>
@@ -240,7 +231,7 @@ const Index = () => {
                 </div>
                 <div>
                   <h3 className="font-bold text-2xl">Fabric</h3>
-                  <Badge variant="outline" className="text-xs">Minecraft 1.20.4</Badge>
+                  <Badge variant="outline" className="text-xs">Minecraft 1.16.5</Badge>
                 </div>
               </div>
               <p className="text-muted-foreground mb-6">
