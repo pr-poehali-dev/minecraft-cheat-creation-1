@@ -84,10 +84,9 @@ const Index = () => {
       version: 'v1.1',
       date: '11 декабря 2024',
       changes: [
-        'Улучшена производительность ESP',
-        'Исправлены краши на версии 1.16.5',
-        'Обновлен интерфейс меню',
-        'Добавлены новые настройки Speed'
+        'Добавлена функция DragonFly',
+        'Добавлена функция Jesus',
+        'Добавлена функция FTHelper'
       ]
     },
     {
@@ -178,7 +177,7 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
             <Card className="bg-card/50 backdrop-blur p-6 border-border hover:border-primary transition-all hover-scale">
               <Icon name="Users" size={32} className="text-primary mb-3 mx-auto" />
-              <h3 className="font-bold text-xl mb-2">50,000+</h3>
+              <h3 className="font-bold text-xl mb-2">5+</h3>
               <p className="text-muted-foreground">Активных пользователей</p>
             </Card>
             <Card className="bg-card/50 backdrop-blur p-6 border-border hover:border-primary transition-all hover-scale">
@@ -211,7 +210,7 @@ const Index = () => {
                   <Icon name="Package" size={24} className="text-white" />
                 </div>
                 <div>
-                  <h3 className="font-bold text-2xl">Forge</h3>
+                  <h3 className="font-bold text-2xl">DenoV Client</h3>
                   <Badge variant="outline" className="text-xs">Minecraft 1.20.4</Badge>
                 </div>
               </div>
@@ -220,7 +219,7 @@ const Index = () => {
               </p>
               <Button className="w-full bg-gradient-to-r from-primary to-secondary hover:opacity-90">
                 <Icon name="Download" size={18} className="mr-2" />
-                Скачать Forge
+                Скачать DenoV Client
               </Button>
             </Card>
 
@@ -230,7 +229,7 @@ const Index = () => {
                   <Icon name="Box" size={24} className="text-white" />
                 </div>
                 <div>
-                  <h3 className="font-bold text-2xl">Fabric</h3>
+                  <h3 className="font-bold text-2xl">DenoV Client</h3>
                   <Badge variant="outline" className="text-xs">Minecraft 1.16.5</Badge>
                 </div>
               </div>
@@ -239,7 +238,7 @@ const Index = () => {
               </p>
               <Button className="w-full bg-gradient-to-r from-primary to-secondary hover:opacity-90">
                 <Icon name="Download" size={18} className="mr-2" />
-                Скачать Fabric
+                Скачать DenoV Client
               </Button>
             </Card>
           </div>
