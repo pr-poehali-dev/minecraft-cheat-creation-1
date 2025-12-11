@@ -120,7 +120,7 @@ const Index = () => {
               <Icon name="Sword" size={24} className="text-white" />
             </div>
             <span className="text-2xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-              CrimsonHack
+              DenoV
             </span>
           </div>
 
@@ -157,7 +157,7 @@ const Index = () => {
           </div>
           
           <h1 className="text-5xl md:text-7xl font-black mb-6 bg-gradient-to-r from-primary via-red-500 to-secondary bg-clip-text text-transparent leading-tight">
-            CRIMSONHACK
+            DENOV
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
@@ -207,7 +207,7 @@ const Index = () => {
       <section id="download" className="py-20 px-4 bg-muted/20">
         <div className="container mx-auto max-w-4xl">
           <h2 className="text-4xl md:text-5xl font-black text-center mb-4">
-            Скачать CrimsonHack
+            Скачать DenoV
           </h2>
           <p className="text-center text-muted-foreground mb-12 text-lg">
             Выберите версию для вашего клиента Minecraft
@@ -410,7 +410,7 @@ const Index = () => {
             </Button>
           </div>
           <p className="text-xs text-muted-foreground mt-8">
-            © 2024 CrimsonHack. Все права защищены.
+            © 2024 DenoV. Все права защищены.
           </p>
         </div>
       </footer>
