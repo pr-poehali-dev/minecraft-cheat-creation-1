@@ -393,7 +393,7 @@ const Index = () => {
             <div className="w-8 h-8 bg-gradient-to-br from-primary to-secondary rounded flex items-center justify-center">
               <Icon name="Sword" size={18} className="text-white" />
             </div>
-            <span className="text-xl font-bold">CrimsonHack</span>
+            <span className="text-xl font-bold">DenoV Client</span>
           </div>
           <p className="text-muted-foreground mb-6">
             Бесплатный чит-клиент для Minecraft
