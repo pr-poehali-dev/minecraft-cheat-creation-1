@@ -220,6 +220,10 @@ const Index = () => {
                 <Icon name="Download" size={18} className="mr-2" />
                 Скачать DenoV Client
               </Button>
+              <div className="mt-4 flex items-center justify-center gap-2 text-sm text-muted-foreground">
+                <Icon name="TrendingUp" size={16} className="text-primary" />
+                <span>3 загрузки</span>
+              </div>
             </Card>
 
             <Card className="p-8 border-2 border-primary hover:shadow-2xl hover:shadow-primary/20 transition-all hover-scale">
@@ -239,6 +243,10 @@ const Index = () => {
                 <Icon name="Download" size={18} className="mr-2" />
                 Скачать DenoV Client
               </Button>
+              <div className="mt-4 flex items-center justify-center gap-2 text-sm text-muted-foreground">
+                <Icon name="TrendingUp" size={16} className="text-primary" />
+                <span>2 загрузки</span>
+              </div>
             </Card>
           </div>
 
