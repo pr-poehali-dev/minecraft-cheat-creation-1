@@ -335,11 +335,16 @@ const Index = () => {
               <div>
                 <h4 className="font-bold mb-2">Нужна помощь?</h4>
                 <p className="text-sm text-muted-foreground mb-4">
-                  Присоединяйтесь к нашему Discord серверу для получения поддержки
+                  Присоединяйтесь к нашему Telegram каналу для получения поддержки
                 </p>
-                <Button size="sm" variant="outline" className="border-primary text-primary hover:bg-primary/10">
-                  <Icon name="MessageCircle" size={16} className="mr-2" />
-                  Discord сервер
+                <Button 
+                  size="sm" 
+                  variant="outline" 
+                  className="border-primary text-primary hover:bg-primary/10"
+                  onClick={() => window.open('https://t.me/TYTbestcheats', '_blank')}
+                >
+                  <Icon name="Send" size={16} className="mr-2" />
+                  Telegram канал
                 </Button>
               </div>
             </div>
