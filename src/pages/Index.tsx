@@ -95,8 +95,7 @@ const Index = () => {
       changes: [
         'Первый релиз DenoV',
         'Поддержка Minecraft 1.16.5',
-        'Базовые модули: KillAura, ESP, Fly, X-Ray',
-        'Поддержка Forge и Fabric'
+        'Базовые модули: KillAura, ESP, Fly, X-Ray'
       ]
     }
   ];
@@ -211,11 +210,11 @@ const Index = () => {
                 </div>
                 <div>
                   <h3 className="font-bold text-2xl">DenoV Client</h3>
-                  <Badge variant="outline" className="text-xs">Minecraft 1.20.4</Badge>
+                  <Badge variant="outline" className="text-xs">Minecraft 1.16.5</Badge>
                 </div>
               </div>
               <p className="text-muted-foreground mb-6">
-                Клиент-версия для Minecraft 1.16.5 (требуется Java 17)
+                v1.1 - Последняя версия (требуется Java 17)
               </p>
               <Button className="w-full bg-gradient-to-r from-primary to-secondary hover:opacity-90">
                 <Icon name="Download" size={18} className="mr-2" />
@@ -234,7 +233,7 @@ const Index = () => {
                 </div>
               </div>
               <p className="text-muted-foreground mb-6">
-                Альтернативная сборка (требуется Java 17)
+                v1.0 - Первая версия (требуется Java 17)
               </p>
               <Button className="w-full bg-gradient-to-r from-primary to-secondary hover:opacity-90">
                 <Icon name="Download" size={18} className="mr-2" />
