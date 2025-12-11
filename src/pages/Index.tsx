@@ -81,6 +81,19 @@ const Index = () => {
 
   const updates = [
     {
+      version: 'v1.2',
+      date: '11 декабря 2025',
+      changes: [
+        'Изменён Jesus (теперь работает на Meta HvH)',
+        'Полностью изменён дизайн худа и клик GUI клиента',
+        'Обновлена KillAura, теперь работает на FunSky',
+        'Обновлён AutoTotem',
+        'Пофикшен баг с SwapItem',
+        'Улучшен AutoBuy',
+        'Добавлен WaterSpeed под MetaHvH'
+      ]
+    },
+    {
       version: 'v1.1',
       date: '6 декабря 2025',
       changes: [
@@ -132,7 +145,7 @@ const Index = () => {
           </div>
 
           <Badge variant="outline" className="border-primary text-primary">
-            v1.1
+            v1.2
           </Badge>
         </div>
       </nav>
