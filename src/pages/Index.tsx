@@ -82,7 +82,7 @@ const Index = () => {
   const updates = [
     {
       version: 'v1.1',
-      date: '11 декабря 2024',
+      date: '6 декабря 2025',
       changes: [
         'Добавлена функция DragonFly',
         'Добавлена функция Jesus',
@@ -91,7 +91,7 @@ const Index = () => {
     },
     {
       version: 'v1.0',
-      date: '1 декабря 2024',
+      date: '1 декабря 2025',
       changes: [
         'Первый релиз DenoV',
         'Поддержка Minecraft 1.16.5',
