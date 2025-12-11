@@ -59,23 +59,23 @@ const Index = () => {
   const installSteps = [
     {
       number: 1,
-      title: 'Скачайте клиент',
-      description: 'Нажмите кнопку "Скачать" и сохраните файл'
+      title: 'Установите Java 17',
+      description: 'Скачайте и установите Java 17 - это обязательное требование для работы DenoV'
     },
     {
       number: 2,
-      title: 'Установите Forge/Fabric',
-      description: 'Убедитесь, что у вас установлен мод-лоадер для вашей версии'
+      title: 'Скачайте клиент',
+      description: 'Нажмите кнопку "Скачать" и распакуйте архив'
     },
     {
       number: 3,
-      title: 'Переместите в папку mods',
-      description: 'Скопируйте файл .jar в папку .minecraft/mods'
+      title: 'Переместите в папку versions',
+      description: 'Скопируйте папку с версией DenoV в .minecraft/versions'
     },
     {
       number: 4,
-      title: 'Запустите игру',
-      description: 'Откройте Minecraft и активируйте функции клавишей'
+      title: 'Запустите через лаунчер',
+      description: 'Откройте Minecraft Launcher, выберите версию DenoV и запустите игру'
     }
   ];
 
@@ -216,7 +216,7 @@ const Index = () => {
                 </div>
               </div>
               <p className="text-muted-foreground mb-6">
-                Стабильная версия для Forge мод-лоадера
+                Клиент-версия для Minecraft 1.16.5 (требуется Java 17)
               </p>
               <Button className="w-full bg-gradient-to-r from-primary to-secondary hover:opacity-90">
                 <Icon name="Download" size={18} className="mr-2" />
@@ -235,7 +235,7 @@ const Index = () => {
                 </div>
               </div>
               <p className="text-muted-foreground mb-6">
-                Легкая версия для Fabric мод-лоадера
+                Альтернативная сборка (требуется Java 17)
               </p>
               <Button className="w-full bg-gradient-to-r from-primary to-secondary hover:opacity-90">
                 <Icon name="Download" size={18} className="mr-2" />
@@ -250,6 +250,7 @@ const Index = () => {
               <div>
                 <h4 className="font-bold mb-2">Важная информация</h4>
                 <ul className="text-sm text-muted-foreground space-y-1">
+                  <li>• Обязательно требуется Java 17</li>
                   <li>• Используйте клиент на свой страх и риск</li>
                   <li>• Возможен бан на серверах с античитом</li>
                   <li>• Рекомендуется для одиночной игры и приватных серверов</li>
