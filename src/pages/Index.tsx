@@ -215,10 +215,36 @@ const Index = () => {
             Выберите версию для вашего клиента Minecraft
           </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <Card className="p-8 border-2 border-primary hover:shadow-2xl hover:shadow-primary/20 transition-all hover-scale">
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-12 h-12 bg-primary rounded flex items-center justify-center">
+                  <Icon name="Sparkles" size={24} className="text-white" />
+                </div>
+                <div>
+                  <h3 className="font-bold text-2xl">DenoV Client</h3>
+                  <Badge className="bg-primary text-white text-xs">NEW</Badge>
+                </div>
+              </div>
+              <p className="text-muted-foreground mb-2">
+                <Badge variant="outline" className="text-xs mb-2">Minecraft 1.16.5</Badge>
+              </p>
+              <p className="text-muted-foreground mb-6">
+                v1.2 - Последняя версия (требуется Java 17)
+              </p>
+              <Button className="w-full bg-gradient-to-r from-primary to-secondary hover:opacity-90">
+                <Icon name="Download" size={18} className="mr-2" />
+                Скачать v1.2
+              </Button>
+              <div className="mt-4 flex items-center justify-center gap-2 text-sm text-muted-foreground">
+                <Icon name="TrendingUp" size={16} className="text-primary" />
+                <span>5 загрузок</span>
+              </div>
+            </Card>
+
+            <Card className="p-8 border border-border hover:shadow-xl hover:shadow-primary/10 transition-all hover-scale">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-12 h-12 bg-primary/80 rounded flex items-center justify-center">
                   <Icon name="Package" size={24} className="text-white" />
                 </div>
                 <div>
@@ -227,11 +253,11 @@ const Index = () => {
                 </div>
               </div>
               <p className="text-muted-foreground mb-6">
-                v1.1 - Последняя версия (требуется Java 17)
+                v1.1 - Стабильная версия (требуется Java 17)
               </p>
-              <Button className="w-full bg-gradient-to-r from-primary to-secondary hover:opacity-90">
+              <Button variant="outline" className="w-full border-primary text-primary hover:bg-primary/10">
                 <Icon name="Download" size={18} className="mr-2" />
-                Скачать DenoV Client
+                Скачать v1.1
               </Button>
               <div className="mt-4 flex items-center justify-center gap-2 text-sm text-muted-foreground">
                 <Icon name="TrendingUp" size={16} className="text-primary" />
@@ -239,9 +265,9 @@ const Index = () => {
               </div>
             </Card>
 
-            <Card className="p-8 border-2 border-primary hover:shadow-2xl hover:shadow-primary/20 transition-all hover-scale">
+            <Card className="p-8 border border-border hover:shadow-xl hover:shadow-primary/10 transition-all hover-scale">
               <div className="flex items-center gap-3 mb-4">
-                <div className="w-12 h-12 bg-primary rounded flex items-center justify-center">
+                <div className="w-12 h-12 bg-primary/60 rounded flex items-center justify-center">
                   <Icon name="Box" size={24} className="text-white" />
                 </div>
                 <div>
@@ -252,9 +278,9 @@ const Index = () => {
               <p className="text-muted-foreground mb-6">
                 v1.0 - Первая версия (требуется Java 17)
               </p>
-              <Button className="w-full bg-gradient-to-r from-primary to-secondary hover:opacity-90">
+              <Button variant="outline" className="w-full border-primary text-primary hover:bg-primary/10">
                 <Icon name="Download" size={18} className="mr-2" />
-                Скачать DenoV Client
+                Скачать v1.0
               </Button>
               <div className="mt-4 flex items-center justify-center gap-2 text-sm text-muted-foreground">
                 <Icon name="TrendingUp" size={16} className="text-primary" />
